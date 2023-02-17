@@ -6,7 +6,7 @@ app.listen(8000, function () {
   console.log('Example app listening on port 8000!')
 })
 
-//nodejs get request function for simple interest
+//nodejs post request function for simple interest
 app.post('/simpleinterest', function (req, res) {
  
   const { p, r, t } = req.body;
